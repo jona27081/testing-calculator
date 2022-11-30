@@ -1,3 +1,4 @@
+<p> Test </p>
 <div class="calculator">
 
     <form>
@@ -12,12 +13,15 @@
         </div>
     </form>
 
-    <i class="glyphicon glyphicon-plus addition-button"
-        (click)="addition()"></i>
-
-    <i class="glyphicon glyphicon-minus substraction-button"
-        (click)="substraction()"></i>
+    <i class="glyphicon glyphicon-plus addition-button" (click)="addition()"></i> <!-- Suma -->
+    <i class="glyphicon glyphicon-minus substraction-button" (click)="substraction()"></i> <!-- Resta -->
+    <i class="div-button" (click)="division()"> / </i> <!-- Div -->
+    <i class="exp-button" (click)="exp()"> ^ </i> <!-- exp -->
+    <i class="mul-button" (click)="mul()"> * </i> <!-- Mul -->
+    <i class="sqr-button" (click)="sqr()"> Sqr </i> <!-- Sqr -->
+    <i class="sqrt-button" (click)="sqrt()"> Sqrt </i> <!-- Sqrt -->
 
 </div>
 
 <span class="result">{{ result }}</span>
+
