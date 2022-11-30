@@ -99,7 +99,7 @@ describe('Ui Addition - Component', () => {
 
 });
 
-describe('Ui resta - Component', () => {
+describe('Ui Subtraction - Component', () => {
   let component: UiComponent;
   let fixture: ComponentFixture<UiComponent>;
 
