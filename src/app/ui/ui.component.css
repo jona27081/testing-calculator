@@ -29,8 +29,38 @@
     cursor: pointer;
     color: blue;
 }
+
 .substraction-button {
     cursor: pointer;
     color: green;
 }
 
+.div-button {
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
+
+.exp-button {
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
+
+.mul-button {
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
+
+.sqr-button {
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
+
+.sqrt-button {
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+}
